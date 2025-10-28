@@ -42,7 +42,6 @@ function SalesChart({ bookings, numDays }) {
         .reduce((acc, cur) => acc + cur.extrasPrice, 0),
     };
   });
-  console.log(data);
 
   const colors = isDarkMode
     ? {
